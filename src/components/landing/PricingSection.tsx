@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Check, Clock, Video, CreditCard } from "lucide-react";
+import { Link } from "react-router-dom";
 import paymentQR from "@/assets/payment-qr.jpg";
 
 const features = [
@@ -101,9 +102,11 @@ const PricingSection = () => {
               </div>
 
               {/* CTA */}
-              <Button variant="hero" size="xl" className="w-full">
-                👉 Đăng Ký Ngay – Số Lượng Giới Hạn
-              </Button>
+              <Link to="/dang-ky">
+                <Button variant="hero" size="xl" className="w-full">
+                  👉 Đăng Ký Ngay – Số Lượng Giới Hạn
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
