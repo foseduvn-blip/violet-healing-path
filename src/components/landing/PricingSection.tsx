@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Check, Clock, Video, CreditCard } from "lucide-react";
+import paymentQR from "@/assets/payment-qr.jpg";
 
 const features = [
   "3 buổi học trực tiếp qua Zoom",
@@ -80,10 +81,22 @@ const PricingSection = () => {
                   <CreditCard className="w-5 h-5 text-primary" strokeWidth={1.5} />
                   <span className="font-semibold text-foreground">Thông tin thanh toán</span>
                 </div>
-                <div className="space-y-2 text-muted-foreground">
-                  <p>Ngân hàng: <span className="text-foreground font-medium">ACB</span></p>
-                  <p>Số tài khoản: <span className="text-foreground font-medium">35263888</span></p>
-                  <p>Chủ tài khoản: <span className="text-foreground font-medium">Vũ Kim Khánh</span></p>
+                <div className="flex flex-col md:flex-row gap-6 items-center">
+                  {/* QR Code */}
+                  <div className="flex-shrink-0">
+                    <img 
+                      src={paymentQR} 
+                      alt="Mã QR thanh toán ACB" 
+                      className="w-48 h-auto rounded-xl shadow-soft"
+                    />
+                  </div>
+                  {/* Bank Info */}
+                  <div className="space-y-2 text-muted-foreground text-center md:text-left">
+                    <p>Ngân hàng: <span className="text-foreground font-medium">ACB</span></p>
+                    <p>Số tài khoản: <span className="text-foreground font-medium">35263888</span></p>
+                    <p>Chủ tài khoản: <span className="text-foreground font-medium">Vũ Kim Khánh</span></p>
+                    <p className="text-sm italic pt-2">Quét mã QR để chuyển khoản nhanh</p>
+                  </div>
                 </div>
               </div>
 
