@@ -1,5 +1,5 @@
 import { Star } from "lucide-react";
-import breakthroughImage from "@/assets/breakthrough.jpg";
+import womanBreakthroughImage from "@/assets/woman-breakthrough.jpg";
 import womanSmileImage from "@/assets/woman-smile.jpg";
 import womanNewPathImage from "@/assets/woman-new-path.jpg";
 
@@ -7,7 +7,7 @@ const sessions = [
   {
     number: "01",
     title: "Phá vỡ vòng lặp bế tắc",
-    image: breakthroughImage,
+    image: womanBreakthroughImage,
     description:
       "Hiểu gốc rễ nỗi khổ, nhận diện bản ngã, phá vỡ vòng lặp cảm xúc tiêu cực đã đeo bám bạn suốt bấy lâu.",
   },
