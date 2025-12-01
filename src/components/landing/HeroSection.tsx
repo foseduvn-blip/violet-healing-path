@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Users, Award, Video } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-woman.jpg";
 
 const HeroSection = () => {
@@ -38,9 +39,11 @@ const HeroSection = () => {
           </p>
 
           {/* CTA Button */}
-          <Button variant="hero" size="xl" className="mb-12">
-            Đăng Ký Ngay – Chỉ 499K
-          </Button>
+          <Link to="/dang-ky">
+            <Button variant="hero" size="xl" className="mb-12">
+              Đăng Ký Ngay – Chỉ 499K
+            </Button>
+          </Link>
 
           {/* Trust Indicators */}
           <div className="flex flex-wrap gap-6 md:gap-10">
