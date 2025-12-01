@@ -1,6 +1,6 @@
 import { Heart, Sparkles, Users } from "lucide-react";
 import tiredWomanImage from "@/assets/tired-woman.jpg";
-import healingImage from "@/assets/healing-meditation.jpg";
+import peacefulRestImage from "@/assets/peaceful-rest.jpg";
 import happyFamilyImage from "@/assets/happy-family.jpg";
 
 const audiences = [
@@ -14,7 +14,7 @@ const audiences = [
     icon: Sparkles,
     title: "Người muốn bình an – không còn suy nghĩ nhiều",
     description: "Bạn mong muốn tâm trí được nghỉ ngơi, không còn lo lắng triền miên.",
-    image: healingImage,
+    image: peacefulRestImage,
   },
   {
     icon: Users,
