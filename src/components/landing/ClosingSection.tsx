@@ -28,13 +28,15 @@ const ClosingSection = () => {
             Hành trình hạnh phúc bắt đầu từ việc yêu thương chính bạn.
           </p>
 
-          <Button 
-            variant="default" 
-            size="xl" 
-            className="bg-card text-lavender-dark hover:bg-card/90 font-semibold shadow-elevated hover:scale-105 transform transition-all"
-          >
-            👉 Tôi Sẵn Sàng Thay Đổi – Đăng Ký Ngay
-          </Button>
+          <a href="https://forms.gle/7knyFJkiygwicwzz8" target="_blank" rel="noopener noreferrer">
+            <Button 
+              variant="default" 
+              size="xl" 
+              className="bg-card text-lavender-dark hover:bg-card/90 font-semibold shadow-elevated hover:scale-105 transform transition-all"
+            >
+              👉 Tôi Sẵn Sàng Thay Đổi – Đăng Ký Ngay
+            </Button>
+          </a>
         </div>
       </div>
     </section>
