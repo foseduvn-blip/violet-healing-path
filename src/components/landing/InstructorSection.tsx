@@ -1,5 +1,5 @@
 import { Users, Heart, Trophy, Star } from "lucide-react";
-import instructorImage from "@/assets/instructor.jpg";
+import instructorImage from "@/assets/instructor-new.jpg";
 import tiktokProfile from "@/assets/tiktok-profile.png";
 import facebookProfile from "@/assets/facebook-profile.png";
 const stats = [{
