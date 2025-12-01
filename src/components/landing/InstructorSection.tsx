@@ -63,7 +63,7 @@ const InstructorSection = () => {
                   </svg>
                   <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">256K</span>
                 </div>
-                <img src={tiktokProfile} alt="TikTok Profile" className="w-20 h-20 rounded-lg object-cover" />
+                <img src={tiktokProfile} alt="TikTok Profile" className="w-20 h-20 object-cover" />
               </a>
               <a href="https://facebook.com/vukimkhanhofficial" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 p-3 rounded-xl bg-card shadow-soft hover:shadow-elevated transition-all group">
                 <div className="flex items-center gap-2">
@@ -72,7 +72,7 @@ const InstructorSection = () => {
                   </svg>
                   <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">162K</span>
                 </div>
-                <img src={facebookProfile} alt="Facebook Profile" className="w-20 h-20 rounded-lg object-cover" />
+                <img src={facebookProfile} alt="Facebook Profile" className="w-20 h-20 object-cover" />
               </a>
             </div>
 
