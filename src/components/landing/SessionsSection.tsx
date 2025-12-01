@@ -1,7 +1,7 @@
 import { Star } from "lucide-react";
 import breakthroughImage from "@/assets/breakthrough.jpg";
 import womanSmileImage from "@/assets/woman-smile.jpg";
-import purplePathImage from "@/assets/purple-path.jpg";
+import womanNewPathImage from "@/assets/woman-new-path.jpg";
 
 const sessions = [
   {
@@ -21,7 +21,7 @@ const sessions = [
   {
     number: "03",
     title: "Tìm ra con đường hạnh phúc",
-    image: purplePathImage,
+    image: womanNewPathImage,
     description:
       "Xây dựng bản đồ sống an yên, phản ứng trưởng thành với mọi tình huống, kết nối bền vững với người thân.",
   },
