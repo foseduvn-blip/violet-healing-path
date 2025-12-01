@@ -14,11 +14,11 @@ const WhatIsSection = () => {
           </h2>
 
           {/* Featured Image */}
-          <div className="relative rounded-3xl overflow-hidden shadow-card mb-12 max-w-2xl mx-auto">
+          <div className="relative rounded-3xl overflow-hidden shadow-card mb-12 max-w-4xl mx-auto">
             <img
               src={healingImage}
               alt="Hoa lavender tím trong ánh sáng ấm áp - biểu tượng chữa lành"
-              className="w-full h-64 md:h-80 object-cover"
+              className="w-full h-80 md:h-[450px] object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background/30 via-transparent to-transparent" />
           </div>
